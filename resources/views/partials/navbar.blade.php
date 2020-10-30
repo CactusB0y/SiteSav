@@ -8,18 +8,18 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link text-light" href="/">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link text-light" href="{{route('about')}}">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Nous contacter
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/sav">Sav</a>
+          <a class="dropdown-item" href="{{route('sav')}}">Sav</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="/partenariat">Partenariat</a>
+            <a class="dropdown-item" href="{{route('part')}}">Partenariat</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="/info">Info</a>
+            <a class="dropdown-item" href="{{route('info')}}">Info</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -27,9 +27,9 @@
             Equipe
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/frontend">Front end</a>
+            <a class="dropdown-item" href="{{route('front')}}">Front end</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="/backend">Backend</a>
+            <a class="dropdown-item" href="{{route('back')}}">Backend</a>
           </div>
         </li>
       </ul>
